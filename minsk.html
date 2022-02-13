@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
     <link href="minsk.css" rel="stylesheet">
 </head>
@@ -83,19 +84,45 @@
 </div>
 <div class="container2">
     <div class="openChat"> 
-        <div class="mainHeader">#general
-        <img class="add" src="addFavourites.png" width="15.5px" height="15px"></div>
-        <div><img id="member" src="member.png" width="10.5px" height="15px"></div>
-        <div class="amount">1,093</div>
+        <div class="mainHeader">
+            <h3>#general</h3>
+            <svg class="starSource"  viewBox="0 0 32 32">
+                <path d="M31.547 12a.848.848 0 00-.677-.577l-9.427-1.376-4.224-8.532a.847.847 0 00-1.516 0l-4.218 8.534-9.427 1.355a.847.847 0 00-.467 1.467l6.823 6.664-1.612 9.375a.847.847 0 001.23.893l8.428-4.434 8.432 4.432a.847.847 0 001.229-.894l-1.615-9.373 6.822-6.665a.845.845 0 00.214-.869z" />
+            </svg>
+        </div>
+        <div class="mainHeader2">
+        <div class="amount">
+<svg class="member"
+	  viewBox="0 0 377.485 377.485" 
+	 >
+	<path d="M260.512,200.2c16.009-21.882,25.076-50.233,25.076-80.297C285.588,53.791,242.138,0,188.74,0
+		c-53.41,0-96.846,53.791-96.846,119.903c0,30.063,9.07,58.415,25.076,80.297c-44.907,25.604-73.196,73.36-73.196,125.824
+		c0,28.379,23.083,51.461,51.458,51.461h187.016c28.379,0,51.462-23.082,51.462-51.461
+		C333.711,273.548,305.416,225.804,260.512,200.2z"/>
+</svg>
+
+        1,093</div>
         <form class="search-wrapper"><input type="search" id="search" placeholder="  Search...">
             <button class="searchSubmit" type="submit">
                  <img src="search.png">
                 </button>
         </form>
-        <div class="notification"><button id="button"><img src="notification.png" width="15.5px" height="15.5px"></button>
-        <img id="notification-1" src="notification-1.png" width="5.5px" height="5.5px"></div>
-        <div><button id="button"><img src="settings.png" width="5px" height="16.5px"></button></div>
-    </div>
+        <div class="notification">
+            <svg  class="notification-1" viewBox="0 0 24 24">
+              <path  d="M6,17v-.5H2.25A2.253,2.253,0,0,1,0,14.25v-.382a2.542,2.542,0,0,1,1.415-2.289A1.248,1.248,0,0,0,2.1,10.572l.446-4.91a6.225,6.225,0,0,1,12.4,0l.446,4.91a1.26,1.26,0,0,0,.686,1.005,2.547,2.547,0,0,1,1.418,2.29v.382a2.252,2.252,0,0,1-2.25,2.25H11.5V17A2.75,2.75,0,0,1,6,17Zm1.5,0A1.25,1.25,0,0,0,10,17v-.5H7.5ZM4.045,5.8,3.6,10.708A2.738,2.738,0,0,1,2.089,12.92a1.055,1.055,0,0,0-.589.949v.382A.751.751,0,0,0,2.25,15h13A.751.751,0,0,0,16,14.25v-.382a1.054,1.054,0,0,0-.586-.948A2.739,2.739,0,0,1,13.9,10.708L13.456,5.8a4.725,4.725,0,0,0-9.411,0Z" transform="translate(3.25 2.25)"/>
+            </svg>
+            </button>
+        <img src="notification-1.png" width="5.5px" height="5.5px"></div>
+        <div><button id="button">
+            <svg class="settings" viewBox="0 0 24 24" >
+            <path class="strokeSettings" d="M12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z"/>
+            <path class="strokeSettings" d="M12 6C12.5523 6 13 5.55228 13 5C13 4.44772 12.5523 4 12 4C11.4477 4 11 4.44772 11 5C11 5.55228 11.4477 6 12 6Z"/>
+            <path class="strokeSettings" d="M12 20C12.5523 20 13 19.5523 13 19C13 18.4477 12.5523 18 12 18C11.4477 18 11 18.4477 11 19C11 19.5523 11.4477 20 12 20Z"/>
+            </svg>
+            </button></div>
+    
+</div>
+</div>
     <div class="mainBorder"></div>
 <div class="messageWindow">
 
@@ -165,6 +192,7 @@
         <div class="borderDate"></div>
     </div>
     
+    
 </div>
     <div class="enterMessage"></div>
     <div class="footerWindow">
@@ -174,6 +202,7 @@
     <textarea  id="text" placeholder="Message in #general"></textarea>
     <div><button id="button"><img class="writeSmile"  src="write3.png"></button></div>
 </div>
+
 </div>
 <div class="container3">
     <div>
